@@ -10,7 +10,7 @@ game = False
 indxs = 0
 night = True
 
-TOKEN = '6273646859:AAE-nLgy3uR0KzDAUMVJ7Whh3uYN-6mQdh0'
+TOKEN = "TOken"
 bot = TeleBot(TOKEN)
 
 @bot.message_handler(func = lambda m: m.text.lower() == 'goplay' and m.chat.type == 'private')
